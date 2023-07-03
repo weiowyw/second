@@ -12,14 +12,15 @@
 // const maxLength = parseInt(userStrMaxLength);
 // let userStr = prompt('Введите строку', );
 //
-// function strSlice() {
-//     if (userStr.length > userStrMaxLength) {
-//         userStr = userStr.slice(0, maxLength);
-//         userStr = userStr + "...";
-//     }
+// function strSlice(str, length) {
+//     if (str.length > length) {
+//         str = str.slice(0, length);
+//         str = str + "...";
+//         return str;
+//     }else return str;
 // }
-// strSlice();
-// console.log(userStr);
+// const cutString = strSlice(userStr, maxLength);
+// console.log(cutString);
 
 
 // 3.
